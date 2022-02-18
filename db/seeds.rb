@@ -14,8 +14,9 @@ Movie.destroy_all
 
 puts 'loading'
 
-10.times do
+1.times do
   rest_client_array.each do |movie|
+    puts "creating #{movie["original_title"]}"
     Movie.create!(
       title: movie["original_title"],
       overview: movie["overview"],
