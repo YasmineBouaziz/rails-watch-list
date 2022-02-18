@@ -30,6 +30,7 @@ gem "simple_form"
 gem 'rest-client'
 gem 'faker'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
